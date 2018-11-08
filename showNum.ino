@@ -132,6 +132,8 @@ void showNum(int num){
     num1(); // Sytytetään 1
    }else if(num == 2){
     num2();
+   }else if(num == 3){
+    num3();
    }
    }
    
@@ -141,10 +143,5 @@ void showNum(int num){
 
 
 void loop(){
-  showNum(2);
+  showNum(3);
 }
-
-
-
-
-
